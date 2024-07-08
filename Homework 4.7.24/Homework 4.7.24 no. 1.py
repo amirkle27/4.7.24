@@ -2,9 +2,10 @@
 
 x: int = int (input ("Please enter a number"));
 y: int = int (input ("Please enter a second number"));
-sum = x+y;
-mul = x*y;
-print (sum);
-print (mul);
+z: int = int (input ("Now please enter a third and final number"));
+sum = x+y+z;
+mul = x*y*z;
+print ("The sum of the numbers you provided is", sum);
+print ("The multiplation of your 3 numbers is", mul);
 
 #End
